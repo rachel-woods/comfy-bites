@@ -5,14 +5,26 @@
     padding: 0px;
 }
 
-.navi > img {
-    max-width: 100px;
+.menu > img {
+    max-width: 160px;
 }
 
-.navi > nav {
+.menu > nav {
     text-align: right;
+    margin-bottom: 10px;
 }
 
-.navi {
+.menu a {
+    text-decoration: none;
+
+    color: #eb529c;
+    background-color: white;
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    padding: 10px;
     background-color:#eb529c;
 }
