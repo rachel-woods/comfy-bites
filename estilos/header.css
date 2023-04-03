@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.menu {
+    overflow: hidden;
+    background-color: #ff017b;
+
+    height: 100px;
+}
+
+.menu > img{
+    position: absolute;
+    left: 25vw;
+
+    max-width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+
+    max-width: calc(90vw - 100px - 25vw);
+
+    margin-left: calc(100px + 25vw);
+    margin-right: 25vw;
+    margin-top: 40px;
+}
+
+.menu ul > li {
+    margin-left: 5vw;    
+    float: left;
+}
+
+.menu li > a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li > a:hover {
+    text-decoration: underline;
+}
