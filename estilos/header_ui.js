@@ -12,7 +12,7 @@ function menu_logic() {
     } else if (MENU.style.display == "block") {
         close_menu()
     }
-}z
+}
 
 function js_querie() {
     if (window.innerWidth >= 740) {

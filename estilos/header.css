@@ -5,6 +5,9 @@ header {
 }
 
 #burger {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+
     cursor: pointer;
     float: right;
 
@@ -15,6 +18,12 @@ header {
     border: none;
 
     margin: 12px 8px;
+
+    border-radius: 10px;
+}
+
+#burger:active {
+    background-color: #ffffff55;
 }
 
 #burger > i {
@@ -46,7 +55,7 @@ header {
     display: none;
     position: absolute;
 
-    top: 75px;
+    top: 80px;
     left: calc(100vw - 86px);
 
     background-color: #ff017b;
@@ -58,6 +67,8 @@ header {
 }
 
 .menu li > a {
+    -webkit-tap-highlight-color: transparent;
+
     display: block;
 
     color: white;
@@ -68,6 +79,10 @@ header {
     text-decoration: none;
 
     padding: 30px 2vw;
+}
+
+.menu li > a:active {
+    background-color: #ffffff55;
 }
 
 .menu li > a:hover {
