@@ -4,34 +4,57 @@ header {
     background-color: #ff017b;
 }
 
+#burger {
+    cursor: pointer;
+    float: right;
+
+    color: white;
+
+    background-color: transparent;
+
+    border: none;
+
+    margin: 12px 8px;
+}
+
+#burger > i {
+    font-size: 4em;
+}
+
 .menu {
     overflow: visible;
 
     max-width: 750px;
-    height: 100px;
+    height: 80px;
 
-    padding: 10px 0;
+    padding: 2px 8px;
 
     margin: auto;
 }
 
-.menu > img {
+.menu > a > img {
     position: absolute;
-    max-width: 100px;
+
+    max-width: 80px;
 }
 
-.menu ul {
+.slogan {
+    background-color: white;
+}
+
+#navbar {
+    display: none;
+    position: absolute;
+
+    top: 75px;
+    left: calc(100vw - 90px);
+
+    background-color: #ff017b;
+
     list-style: none;
 
-    margin-right: 0;
-    margin-left: auto;
+    border-radius: 0 0 0px 10px;
 
-    width: fit-content;
-    height: fit-content;
-}
-
-.menu li {
-    display: inline-block;
 }
 
 .menu li > a {
@@ -39,18 +62,54 @@ header {
 
     color: white;
 
-    font-size: 1.2em;
     font-weight: bold;
     
+    text-align: center;
     text-decoration: none;
 
-    padding: 40px;
+    padding: 30px 2vw;
 }
 
 .menu li > a:hover {
     text-decoration: underline;
 }
 
-.slogan {
-    background-color: white;
+@media screen and (min-width: 740px) {
+    .menu {
+        height: 100px;
+        padding: 2px 0;
+    }
+
+    .menu > a > img {
+        max-width: 100px;
+    }
+
+    .menu li > a {
+        font-size: 1.2em;
+        padding: 40px;
+    }
+
+    .menu > button {
+        display: none;
+    }
+
+    #navbar {
+        display: block;
+        position: relative;
+
+        top: 0;
+        left: 0;
+
+        background-color: transparent;
+
+        margin-right: 0;
+        margin-left: auto;
+    
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .menu li {
+        display: inline-block;
+    }
 }
