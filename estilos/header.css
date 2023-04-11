@@ -48,7 +48,16 @@ header {
 }
 
 .slogan {
-    background-color: white;
+    height: 50vh;  
+    background-image: url(../imagens/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan > p {
+    font-size: 3ex;
+    text-align: center;
 }
 
 #navbar {
