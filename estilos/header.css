@@ -53,11 +53,8 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
 
-.slogan > p {
-    font-size: 3ex;
-    text-align: center;
+    box-shadow: 0 0 50px 5px inset #0000009a;
 }
 
 #navbar {
