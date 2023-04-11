@@ -1,0 +1,15 @@
+@charset "UTF-08";
+
+section {
+
+    max-width: 800px;
+    margin: auto;
+
+}
+
+article {
+
+    text-align: justify;
+    text-indent: 2em;
+
+}
