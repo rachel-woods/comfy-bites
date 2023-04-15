@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-header {
-    background-color: #ff017b;
-}
-
 #burger {
     user-select: none;
     -webkit-tap-highlight-color: transparent;
@@ -28,6 +24,12 @@ header {
 
 #burger > i {
     font-size: 4em;
+}
+
+#navsticker {
+    position: sticky;
+    top: 0;
+    background-color: #ff017b;
 }
 
 .menu {
