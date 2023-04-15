@@ -55,5 +55,15 @@ footer a {
 }
 
 footer a:hover {
+
     text-decoration: underline;
+
+}
+
+@media screen and (min-width: 800px) {
+    article > p {
+    
+        font-size: 1.5em;
+    
+    }
 }
