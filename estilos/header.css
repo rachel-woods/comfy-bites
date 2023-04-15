@@ -51,7 +51,7 @@ header {
 
 .slogan {
     height: 50vh;  
-    background-image: url(../imagens/header-bg.jpg);
+    background-image: url(../imagens/header-bg-big.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,5 +134,9 @@ header {
     
     .menu li {
         display: inline-block;
+    }
+
+    .slogan {
+        background-image: url(../imagens/header-bg-small.jpg);
     }
 }
