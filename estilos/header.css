@@ -135,16 +135,8 @@ header {
     .menu li {
         display: inline-block;
     }
-}
 
-@media screen and (min-width: 1380px) {
     .slogan {
         background-image: url(../imagens/header-bg-small.jpg);
-    }
-}
-
-@media screen and (min-width: 1656px) {
-    .slogan {
-        height: 56vh;
     }
 }
