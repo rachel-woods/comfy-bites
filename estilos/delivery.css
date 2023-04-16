@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#delivery {
+    text-align: center;
+}
+
+.muffin {
+    display: inline-block;
+
+    overflow: hidden;
+
+    background-color: #00000013;
+
+    max-width: 30%;
+
+    border-radius: 20px;
+
+    margin: 2px;
+
+    box-shadow: 1px 1px 3px 2px #00000087;
+}
+
+.muffinimg > img {
+    width: 100%;
+}
+
+.muffininfo {
+    text-align: left;
+}
+
+.muffininfo span {
+    padding: 10px;
+}
+
+.muffininfo .title {
+    font-weight: bolder;
+}
+
+.muffin button {
+    display: block;
+
+    font-weight: bold;
+
+    color: white;
+    background-color: green;
+
+    width: 100%;
+    height: 35px;
+
+    border: none;
+
+    margin-top: 5px;
+}
+
+.muffin button:active {
+    background-color: #1bac1b;
+}
+
+@media screen and (min-width: 860px) {
+    .muffin {
+        width: 160px;
+    }
+}
