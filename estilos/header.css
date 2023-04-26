@@ -30,6 +30,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #ff017b;
+    z-index: 2;
 }
 
 .menu {
