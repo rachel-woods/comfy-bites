@@ -5,31 +5,49 @@
 }
 
 .muffin {
-    display: inline-block;
+    display: block;
 
     overflow: hidden;
 
     background-color: #00000013;
 
-    max-width: 30%;
+    width: 100%;
+    height: 128px;
 
-    border-radius: 20px;
+    margin-bottom: 4px;
 
-    margin: 2px;
+    border-radius: 6px;
+    
+    box-shadow: 1px 1px 3px 2px #0000003f;
+}
 
-    box-shadow: 1px 1px 3px 2px #00000087;
+.muffinimg {
+    float: left;
+    width: 128px;
+    height: 128px;
 }
 
 .muffinimg > img {
-    width: 100%;
+    height: 100%;
 }
 
 .muffininfo {
-    text-align: left;
+    float: right;
+    text-align: right;
+    font-size: .85em;
+
+    height: inherit;
+    width: calc(100% - 128px);
+
+    padding-top: 10px;
+}
+
+.muffininfo .tiny {
+    font-size: .75em;
 }
 
 .muffininfo span {
-    padding: 10px;
+    margin: 10px;
 }
 
 .muffininfo .title {
@@ -49,15 +67,51 @@
 
     border: none;
 
-    margin-top: 5px;
+    margin-top: 50px;
 }
 
 .muffin button:active {
     background-color: #1bac1b;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 548px) {
     .muffin {
-        width: 160px;
+        display: inline-block;
+
+        max-width: 160px;
+        height: unset;
+
+        border-radius: 20px;
+    
+        margin: 2px;
+    }
+
+    .muffinimg {
+        float: initial;
+        width: 100%;
+        height: unset;
+    }
+
+    .muffinimg > img {
+        width: 100%;
+    }
+
+    .muffininfo {
+        float: initial;
+        text-align: left;
+        font-size: 1em;
+    
+        height: unset;
+        width: 100%;
+    
+        padding-top: 0;
+    }
+
+    .muffininfo .tiny {
+        font-size: .85em;
+    }
+    
+    .muffin button {
+        margin-top: 5px;
     }
 }
